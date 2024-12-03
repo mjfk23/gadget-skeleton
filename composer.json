@@ -6,7 +6,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "php": ">=8.1",
+    "php": "^8.1",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "paragonie/sodium_compat": "^2.1",
@@ -14,19 +14,17 @@
     "symfony/requirements-checker": "2.0.1"
   },
   "flex-require": {
-    "mjfk23/gadget-console": "^1.0",
-    "mjfk23/gadget-http": "^1.0",
+    "mjfk23/gadget-console": "^2.0",
     "symfony/console": "*",
     "symfony/dotenv": "*",
     "symfony/framework-bundle": "*",
     "symfony/monolog-bundle": "*",
-    "symfony/process": "*",
     "symfony/runtime": "*",
     "symfony/yaml": "*"
   },
   "require-dev": {
-    "phpstan/phpstan": "^1.12",
-    "phpstan/phpstan-strict-rules": "^1.6",
+    "phpstan/phpstan": "^2.0",
+    "phpstan/phpstan-strict-rules": "^2.0",
     "phpstan/extension-installer": "^1.4",
     "squizlabs/php_codesniffer": "^3.10"
   },
