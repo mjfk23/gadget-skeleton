@@ -14,7 +14,7 @@
     "symfony/requirements-checker": "2.0.1"
   },
   "flex-require": {
-    "mjfk23/gadget-console": "^2.0",
+    "gadgetphp/console": "*",
     "symfony/console": "*",
     "symfony/dotenv": "*",
     "symfony/framework-bundle": "*",
